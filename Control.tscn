@@ -1,0 +1,127 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 1.12247
+margin_top = 1.43747
+margin_right = 1.12244
+margin_bottom = 1.4375
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button0" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 26.0
+margin_top = 27.0
+margin_right = 81.0
+margin_bottom = 41.0
+text = "Button 0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Up" type="Label" parent="."]
+margin_left = 874.0
+margin_top = 41.0
+margin_right = 914.0
+margin_bottom = 55.0
+text = "Up	"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RstickUp" type="ProgressBar" parent="."]
+margin_left = 541.034
+margin_top = 208.115
+margin_right = 641.034
+margin_bottom = 228.115
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RstickDown" type="ProgressBar" parent="."]
+margin_left = 542.719
+margin_top = 300.43
+margin_right = 642.719
+margin_bottom = 320.43
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RstickLeft" type="ProgressBar" parent="."]
+margin_left = 489.722
+margin_top = 250.855
+margin_right = 589.722
+margin_bottom = 270.855
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RstickRight" type="ProgressBar" parent="."]
+margin_left = 618.722
+margin_top = 249.855
+margin_right = 718.722
+margin_bottom = 269.855
+max_value = 1.0
+
+[node name="LstickUp" type="ProgressBar" parent="."]
+margin_left = 223.739
+margin_top = 207.633
+margin_right = 323.739
+margin_bottom = 227.633
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LstickDown" type="ProgressBar" parent="."]
+margin_left = 225.424
+margin_top = 299.947
+margin_right = 325.424
+margin_bottom = 319.947
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LstickLeft" type="ProgressBar" parent="."]
+margin_left = 172.426
+margin_top = 250.373
+margin_right = 272.426
+margin_bottom = 270.373
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LstickRight" type="ProgressBar" parent="."]
+margin_left = 301.426
+margin_top = 249.373
+margin_right = 401.426
+margin_bottom = 269.373
+max_value = 1.0
+
+[node name="Axis9Left" type="ProgressBar" parent="."]
+margin_left = 337.737
+margin_top = 426.551
+margin_right = 437.737
+margin_bottom = 446.551
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Axis9Right" type="ProgressBar" parent="."]
+margin_left = 466.428
+margin_top = 425.599
+margin_right = 566.428
+margin_bottom = 445.599
+max_value = 1.0
