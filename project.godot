@@ -10,7 +10,7 @@ config_version=4
 
 [application]
 
-config/name="controller_test"
+config/name="controller"
 run/main_scene="res://Control.tscn"
 config/icon="res://icon.png"
 

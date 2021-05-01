@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://Control.gd" type="Script" id=1]
+[ext_resource path="res://icon.png" type="Texture" id=2]
 
 [node name="Control" type="Control"]
 anchor_right = 1.0
@@ -110,18 +111,67 @@ margin_bottom = 269.373
 max_value = 1.0
 
 [node name="Axis9Left" type="ProgressBar" parent="."]
-margin_left = 337.737
-margin_top = 426.551
-margin_right = 437.737
-margin_bottom = 446.551
+margin_left = 335.492
+margin_top = 364.816
+margin_right = 435.492
+margin_bottom = 384.816
 max_value = 1.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="Axis9Right" type="ProgressBar" parent="."]
-margin_left = 466.428
+margin_left = 464.183
+margin_top = 363.864
+margin_right = 564.183
+margin_bottom = 383.864
+max_value = 1.0
+
+[node name="AxisLX" type="ProgressBar" parent="."]
+margin_left = 32.0353
+margin_top = 427.844
+margin_right = 132.035
+margin_bottom = 447.844
+max_value = 1.0
+
+[node name="AxisLY" type="ProgressBar" parent="."]
+margin_left = 142.037
 margin_top = 425.599
-margin_right = 566.428
+margin_right = 242.037
 margin_bottom = 445.599
 max_value = 1.0
+
+[node name="AxisRX" type="ProgressBar" parent="."]
+margin_left = 577.552
+margin_top = 426.721
+margin_right = 677.552
+margin_bottom = 446.721
+max_value = 1.0
+
+[node name="AxisRY" type="ProgressBar" parent="."]
+margin_left = 688.675
+margin_top = 424.477
+margin_right = 788.675
+margin_bottom = 444.477
+max_value = 1.0
+
+[node name="AxisL2" type="ProgressBar" parent="."]
+margin_left = 91.5258
+margin_top = 476.11
+margin_right = 191.526
+margin_bottom = 496.11
+max_value = 1.0
+
+[node name="AxisR2" type="ProgressBar" parent="."]
+margin_left = 632.552
+margin_top = 477.232
+margin_right = 732.552
+margin_bottom = 497.232
+max_value = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="icon" type="Sprite" parent="."]
+position = Vector2( 445.706, 39.6271 )
+texture = ExtResource( 2 )
