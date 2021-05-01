@@ -6,10 +6,10 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
-margin_left = 1.12247
-margin_top = 1.43747
-margin_right = 1.12244
-margin_bottom = 1.4375
+margin_left = -2.2449
+margin_top = 1.55994
+margin_right = -2.24493
+margin_bottom = 1.55994
 script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
@@ -27,11 +27,12 @@ __meta__ = {
 }
 
 [node name="Up" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
 margin_left = 874.0
 margin_top = 41.0
 margin_right = 914.0
 margin_bottom = 55.0
-text = "Up	"
+text = "up"
 __meta__ = {
 "_edit_use_anchors_": false
 }

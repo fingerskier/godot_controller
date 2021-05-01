@@ -32,27 +32,26 @@ func _process(delta):
 		Up.text = 'up'
 		Up.add_color_override("font_color", Color(0,0,0))
 
-	# These work
-	print(Input.get_action_strength("Lstick Down"))
-	print(Input.get_action_strength("Rstick Down"))
+	# These work	# These don't work anymore
+	LstickLeft.value = Input.get_action_strength("Lstick Left")
+	LstickRight.value = Input.get_action_strength("Lstick Right")
+	LstickUp.value = Input.get_action_strength("Lstick Up")
+	LstickDown.value = Input.get_action_strength("Lstick Down")
 
-	# These don't work anymore
-	LstickLeft.value = Input.get_joy_axis(0, JOY_AXIS_0)
-	LstickRight.value = Input.get_joy_axis(0, JOY_AXIS_1)
-	LstickUp.value = Input.get_joy_axis(0, JOY_AXIS_2)
-	LstickDown.value = Input.get_joy_axis(0, JOY_AXIS_3)
+	RstickLeft.value = Input.get_action_strength("Rstick Left")
+	RstickRight.value = Input.get_action_strength("Rstick Right")
+	RstickUp.value = Input.get_action_strength("Rstick Up")
+	RstickDown.value = Input.get_action_strength("Rstick Down")
 
-	RstickLeft.value = Input.get_joy_axis(0, JOY_AXIS_4)
-	RstickRight.value = Input.get_joy_axis(0, JOY_AXIS_5)
-	RstickUp.value = Input.get_joy_axis(0, JOY_AXIS_6)
-	RstickDown.value = Input.get_joy_axis(0, JOY_AXIS_7)
-
-	Axis9L.value = Input.get_joy_axis(0, JOY_AXIS_8)
-	Axis9R.value = Input.get_joy_axis(0, JOY_AXIS_9)
-
-	AxisLX.value = Input.get_joy_axis(0, JOY_ANALOG_LX)
-	AxisLY.value = Input.get_joy_axis(0, JOY_ANALOG_LY)
-	AxisRX.value = Input.get_joy_axis(0, JOY_ANALOG_RX)
-	AxisRY.value = Input.get_joy_axis(0, JOY_ANALOG_RY)
-	AxisL2.value = Input.get_joy_axis(0, JOY_ANALOG_L2)
-	AxisR2.value = Input.get_joy_axis(0, JOY_ANALOG_R2)
+	AxisLX.value = Input.get_action_strength("Axis4-")
+	AxisLY.value = Input.get_action_strength("Axis4+")
+	AxisRX.value = Input.get_action_strength("Axis5-")
+	AxisRY.value = Input.get_action_strength("Axis5+")
+	AxisL2.value = Input.get_action_strength("Axis6-")
+	AxisR2.value = Input.get_action_strength("Axis6+")
+	Axis9L.value = Input.get_action_strength("Axis7-")
+	Axis9R.value = Input.get_action_strength("Axis7+")
+	Axis9L.value = Input.get_action_strength("Axis8-")
+	Axis9R.value = Input.get_action_strength("Axis8+")
+	Axis9L.value = Input.get_action_strength("Axis9-")
+	Axis9R.value = Input.get_action_strength("Axis9+")
